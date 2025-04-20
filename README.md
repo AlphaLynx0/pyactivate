@@ -1,0 +1,1 @@
+This script lets you add a python virtual environment to your environment from within subdirectories in a project. It is packaged on the AUR: https://aur.archlinux.org/packages/pyactivate, or you can just move `pyactivate.sh` to a place in your PATH, or add the function to your shell's rc (e.g. `.bashrc`, `.zshrc`).
