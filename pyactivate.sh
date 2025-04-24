@@ -22,7 +22,7 @@ pyactivate() {
     done
 
     
-    printf 'Error: No Python venv found in %s or any parent directory\n' "$original_dir" >&2
+    printf 'Error: No Python venv found in %s or any parent directory\n' "$PWD" >&2
     exit 1
 }
 
