@@ -3,7 +3,7 @@ set -euo pipefail
 IFS=$'\n\t'
 
 pyactivate() {
-    local -r dir="$PWD"
+    local dir="$PWD"
     # list of folder names to test
     declare -ar choices=(.venv venv)
 
