@@ -17,7 +17,6 @@ pyactivate() {
         dir=$(dirname "$dir")
     done
 
-    
     printf 'Error: No Python venv found in %s or any parent directory\n' "$PWD" >&2
-    exit 1
+    return 1
 }
