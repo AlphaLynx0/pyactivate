@@ -1,7 +1,3 @@
-#!/usr/bin/env bash
-set -euo pipefail
-IFS=$'\n\t'
-
 pyactivate() {
     local dir="$PWD"
     # list of folder names to test
@@ -25,5 +21,3 @@ pyactivate() {
     printf 'Error: No Python venv found in %s or any parent directory\n' "$PWD" >&2
     exit 1
 }
-
-pyactivate
